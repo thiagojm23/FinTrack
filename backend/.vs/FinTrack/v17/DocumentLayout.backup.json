@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.api\\controllers\\transacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|solutionrelative:fintrack.api\\controllers\\transacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.infrastructure\\repositorios\\transacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|solutionrelative:fintrack.infrastructure\\repositorios\\transacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\interfaces\\repositorios\\itransacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\interfaces\\repositorios\\itransacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\contratos\\atualizartransacaocontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\contratos\\atualizartransacaocontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|solutionrelative:fintrack.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\contratos\\criartransacaocontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\contratos\\criartransacaocontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\entities\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\entities\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.infrastructure\\repositorios\\repositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|solutionrelative:fintrack.infrastructure\\repositorios\\repositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\contratos\\transacaocontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\contratos\\transacaocontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|solutionrelative:fintrack.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.infrastructure\\fintrack.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|solutionrelative:fintrack.infrastructure\\fintrack.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\fintrack.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\fintrack.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D33937-9CF5-41C3-92A1-8087C71B0BDC}|FinTrack.Tests\\FinTrack.Tests.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.tests\\fintrack.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8D33937-9CF5-41C3-92A1-8087C71B0BDC}|FinTrack.Tests\\FinTrack.Tests.csproj|solutionrelative:fintrack.tests\\fintrack.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|solutionrelative:fintrack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D541DF2E-2544-4631-9AD8-7E50876D7673}|FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj|solutionrelative:fintrack.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\interfaces\\repositorios\\ibaserepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\interfaces\\repositorios\\ibaserepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\contratos\\criarcategoriacontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\contratos\\criarcategoriacontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\contratos\\categoriacontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\contratos\\categoriacontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\entities\\entidadebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\entities\\entidadebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.api\\fintrack.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A7B2923-730E-4C9E-8EB8-D66C1F4E86C7}|FinTrack.API\\FinTrack.API.csproj|solutionrelative:fintrack.api\\fintrack.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\contratos\\transacaofiltro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\contratos\\transacaofiltro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\interfaces\\repositorios\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\interfaces\\repositorios\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|c:\\users\\thiag\\onedrive\\projetospessoais\\fintrack\\backend\\fintrack.domain\\enums\\transacoestipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9507D92B-4937-45B3-87EC-5975A7F96D83}|FinTrack.Domain\\FinTrack.Domain.csproj|solutionrelative:fintrack.domain\\enums\\transacoestipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 227,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FinTrack.API.csproj",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\FinTrack.API.csproj",
+              "RelativeDocumentMoniker": "FinTrack.API\\FinTrack.API.csproj",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\FinTrack.API.csproj",
+              "RelativeToolTip": "FinTrack.API\\FinTrack.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T02:22:27.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FinTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FinTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T01:54:39.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FinTrack.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\appsettings.json",
+              "RelativeToolTip": "FinTrack.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T00:08:17.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "FinTrack.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "FinTrack.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAADwv2gAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:02:29.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FinTrack.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj",
+              "RelativeToolTip": "FinTrack.Infrastructure\\FinTrack.Infrastructure.csproj",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T02:27:06.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FinTrack.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Tests\\FinTrack.Tests.csproj",
+              "RelativeDocumentMoniker": "FinTrack.Tests\\FinTrack.Tests.csproj",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Tests\\FinTrack.Tests.csproj",
+              "RelativeToolTip": "FinTrack.Tests\\FinTrack.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T23:43:34.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoriaContrato.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\CategoriaContrato.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Contratos\\CategoriaContrato.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\CategoriaContrato.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Contratos\\CategoriaContrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:09:31.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\Controllers\\TransacoesController.cs",
+              "RelativeDocumentMoniker": "FinTrack.API\\Controllers\\TransacoesController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\Controllers\\TransacoesController.cs",
+              "RelativeToolTip": "FinTrack.API\\Controllers\\TransacoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:23:09.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\Program.cs",
+              "RelativeDocumentMoniker": "FinTrack.API\\Program.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.API\\Program.cs",
+              "RelativeToolTip": "FinTrack.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:06:07.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransacaoContrato.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\TransacaoContrato.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Contratos\\TransacaoContrato.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\TransacaoContrato.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Contratos\\TransacaoContrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:29:47.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICategoriaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Interfaces\\Repositorios\\ICategoriaRepositorio.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Interfaces\\Repositorios\\ICategoriaRepositorio.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Interfaces\\Repositorios\\ICategoriaRepositorio.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Interfaces\\Repositorios\\ICategoriaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:26:41.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FinTrack.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\FinTrack.Domain.csproj",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\FinTrack.Domain.csproj",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\FinTrack.Domain.csproj",
+              "RelativeToolTip": "FinTrack.Domain\\FinTrack.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-13T18:15:27.217Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransacaoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\Repositorios\\TransacaoRepositorio.cs",
+              "RelativeDocumentMoniker": "FinTrack.Infrastructure\\Repositorios\\TransacaoRepositorio.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\Repositorios\\TransacaoRepositorio.cs",
+              "RelativeToolTip": "FinTrack.Infrastructure\\Repositorios\\TransacaoRepositorio.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T22:24:44.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositorioBase.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\Repositorios\\RepositorioBase.cs",
+              "RelativeDocumentMoniker": "FinTrack.Infrastructure\\Repositorios\\RepositorioBase.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Infrastructure\\Repositorios\\RepositorioBase.cs",
+              "RelativeToolTip": "FinTrack.Infrastructure\\Repositorios\\RepositorioBase.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:09:12.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CriarCategoriaContrato.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\CriarCategoriaContrato.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Contratos\\CriarCategoriaContrato.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\CriarCategoriaContrato.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Contratos\\CriarCategoriaContrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T15:14:41.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AtualizarTransacaoContrato.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\AtualizarTransacaoContrato.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Contratos\\AtualizarTransacaoContrato.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\AtualizarTransacaoContrato.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Contratos\\AtualizarTransacaoContrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:37:44.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TransacaoFiltro.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\TransacaoFiltro.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Contratos\\TransacaoFiltro.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\TransacaoFiltro.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Contratos\\TransacaoFiltro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T23:09:16.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBaseRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Interfaces\\Repositorios\\IBaseRepositorio.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Interfaces\\Repositorios\\IBaseRepositorio.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Interfaces\\Repositorios\\IBaseRepositorio.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Interfaces\\Repositorios\\IBaseRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:34:22.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transacao.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Entities\\Transacao.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Entities\\Transacao.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Entities\\Transacao.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Entities\\Transacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:25:52.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TransacoesTipo.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Enums\\TransacoesTipo.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Enums\\TransacoesTipo.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Enums\\TransacoesTipo.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Enums\\TransacoesTipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:09:22.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITransacaoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Interfaces\\Repositorios\\ITransacaoRepositorio.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Interfaces\\Repositorios\\ITransacaoRepositorio.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Interfaces\\Repositorios\\ITransacaoRepositorio.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Interfaces\\Repositorios\\ITransacaoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:15:56.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EntidadeBase.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Entities\\EntidadeBase.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Entities\\EntidadeBase.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Entities\\EntidadeBase.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Entities\\EntidadeBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:15:28.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Entities\\Categoria.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:23:50.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CriarTransacaoContrato.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\CriarTransacaoContrato.cs",
+              "RelativeDocumentMoniker": "FinTrack.Domain\\Contratos\\CriarTransacaoContrato.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\projetosPessoais\\FinTrack\\backend\\FinTrack.Domain\\Contratos\\CriarTransacaoContrato.cs",
+              "RelativeToolTip": "FinTrack.Domain\\Contratos\\CriarTransacaoContrato.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:30:49.383Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

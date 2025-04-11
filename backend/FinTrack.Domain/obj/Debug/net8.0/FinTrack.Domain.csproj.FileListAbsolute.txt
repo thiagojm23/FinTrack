@@ -1,0 +1,11 @@
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\bin\Debug\net8.0\FinTrack.Domain.deps.json
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\bin\Debug\net8.0\FinTrack.Domain.dll
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\bin\Debug\net8.0\FinTrack.Domain.pdb
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\FinTrack.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\FinTrack.Domain.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\FinTrack.Domain.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\FinTrack.Domain.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\FinTrack.Domain.dll
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\refint\FinTrack.Domain.dll
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\FinTrack.Domain.pdb
+C:\Users\thiag\OneDrive\projetosPessoais\FinTrack\FinTrack.Domain\obj\Debug\net8.0\ref\FinTrack.Domain.dll
