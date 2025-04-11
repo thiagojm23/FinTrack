@@ -1,6 +1,6 @@
 Projeto pessoal para estudos em C#
 
-Stack utilizado:
+Stack utilizada:
 
 - **Backend:** ASP.NET Core + Entity Framework Core
 - **Banco de dados:** MySQL  
