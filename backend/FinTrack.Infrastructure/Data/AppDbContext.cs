@@ -11,6 +11,7 @@ namespace FinTrack.Infrastructure.Data
 
         public DbSet<Transacao> Transacoes { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,12 +28,12 @@ namespace FinTrack.Infrastructure.Data
 
             //Seed categorias padrão
             modelBuilder.Entity<Categoria>().HasData(
-                new Categoria { Id = 1, Nome = "Renda recorrente", Descricao = "Receitas de salário", DataCriacao = DateTime.UtcNow },
-                new Categoria { Id = 2, Nome = "Alimentação", Descricao = "Gastos com alimentação", DataCriacao = DateTime.UtcNow },
-                new Categoria { Id = 3, Nome = "Transporte", Descricao = "Gastos com transporte", DataCriacao = DateTime.UtcNow },
-                new Categoria { Id = 4, Nome = "Moradia", Descricao = "Gastos com moradia", DataCriacao = DateTime.UtcNow },
-                new Categoria { Id = 5, Nome = "Lazer", Descricao = "Gastos com lazer", DataCriacao = DateTime.UtcNow },
-                new Categoria { Id = 6, Nome = "Renda passiva", Descricao = "Renda proveniente de investimentos em geral", DataCriacao = DateTime.UtcNow }
+                new Categoria { Id = 1, Nome = "Renda recorrente", Descricao = "Receitas de salário", DataCriacao = DateTime.UtcNow.ToLocalTime() },
+                new Categoria { Id = 2, Nome = "Alimentação", Descricao = "Gastos com alimentação", DataCriacao = DateTime.UtcNow.ToLocalTime() },
+                new Categoria { Id = 3, Nome = "Transporte", Descricao = "Gastos com transporte", DataCriacao = DateTime.UtcNow.ToLocalTime() },
+                new Categoria { Id = 4, Nome = "Moradia", Descricao = "Gastos com moradia", DataCriacao = DateTime.UtcNow.ToLocalTime() },
+                new Categoria { Id = 5, Nome = "Lazer", Descricao = "Gastos com lazer", DataCriacao = DateTime.UtcNow.ToLocalTime() },
+                new Categoria { Id = 6, Nome = "Renda passiva", Descricao = "Renda proveniente de investimentos em geral", DataCriacao = DateTime.UtcNow.ToLocalTime() }
             );
 
         }
@@ -43,7 +44,7 @@ namespace FinTrack.Infrastructure.Data
             {
                 if (entidade.State == EntityState.Modified)
                 {
-                    entidade.Entity.DataAtualizacao = DateTime.UtcNow;
+                    entidade.Entity.DataAtualizacao = DateTime.UtcNow.ToLocalTime();
                 }
             }
             return base.SaveChangesAsync(cancellationToken);

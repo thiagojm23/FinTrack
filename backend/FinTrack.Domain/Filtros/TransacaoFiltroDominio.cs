@@ -1,8 +1,8 @@
 ﻿using FinTrack.Domain.Enums;
 
-namespace FinTrack.Domain.Contratos
+namespace FinTrack.Domain.Filtros
 {
-    public class TransacaoFiltro
+    public class TransacaoFiltroDominio
     {
         public int? Id { get; set; }
         public string? Descricao { get; set; }

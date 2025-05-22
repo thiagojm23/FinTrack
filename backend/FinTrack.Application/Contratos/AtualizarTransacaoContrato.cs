@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using FinTrack.Domain.Enums;
 
-namespace FinTrack.Domain.Contratos
+namespace FinTrack.Application.Contratos
 {
     public class AtualizarTransacaoContrato
     {

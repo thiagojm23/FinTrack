@@ -1,14 +1,16 @@
-﻿using FinTrack.Domain.Contratos;
+﻿using FinTrack.Application.Contratos;
+using FinTrack.Application.Services;
 using FinTrack.Domain.Entities;
 using FinTrack.Domain.Enums;
 using FinTrack.Domain.Interfaces.Repositorios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinTrack.API.Controllers
 {
     [ApiController]
     [Route("api/FinTrack/[controller]")]
-    public class TransacoesController(ITransacaoRepositorio transacaoRepositorio, ILogger<TransacoesController> logger) : ControllerBase
+    public class TransacoesController(ITransacaoRepositorio transacaoRepositorio, TransacaoApplicationServico transacaoService, ILogger<TransacoesController> logger) : ControllerBase
     {
         //Caso não tivesse primary constructor
         //private readonly ITransacaoRepositorio _transacaoRepositorio;
@@ -21,6 +23,7 @@ namespace FinTrack.API.Controllers
         //}
 
         private readonly ITransacaoRepositorio _transacaoRepositorio = transacaoRepositorio;
+        private readonly TransacaoApplicationServico _transacaoService = transacaoService;
         private readonly ILogger<TransacoesController> _logger = logger;
 
         //Existe um EP chamado filtrarTransacoes que elimina boa parte destes EP
@@ -28,6 +31,7 @@ namespace FinTrack.API.Controllers
         //vai retornar tudo
 
         [HttpGet("obterTodas")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TransacaoContrato>>> ObterTodos()
         {
             try
@@ -45,6 +49,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpGet("obterPorId/{id}")]
+        [Authorize]
         public async Task<ActionResult<TransacaoContrato>> ObterPorId(int id)
         {
             try
@@ -62,6 +67,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpGet("obterPorTipo/{tipoTransacao}")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TransacaoContrato>>> ObterPorTipo(TransacoesTipo tipoTransacao)
         {
             try
@@ -78,6 +84,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpGet("obterPorPeriodo")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TransacaoContrato>>> ObterPorPeriodo([FromQuery] DateTime dataInicio, [FromQuery] DateTime dataFim)
         {
             try
@@ -94,6 +101,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpGet("obterPorCategoriaId/{idCategoria}")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TransacaoContrato>>> ObterTransacaoPorCategoriaId(int idCategoria)
         {
             try
@@ -110,11 +118,12 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpPost("obter")]
-        public async Task<ActionResult<IEnumerable<TransacaoContrato>>> FiltrarTransacoes([FromBody] TransacaoFiltro filtros)
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<TransacaoContrato>>> FiltrarTransacoes([FromBody] TransacaoFiltroContrato filtros)
         {
             try
             {
-                var transacoes = await _transacaoRepositorio.FiltrarTransacoes(filtros);
+                var transacoes = await _transacaoService.FiltrarTransacoes(filtros);
                 var transacoesContrato = transacoes.Select(MapearParaContrato);
 
                 return Ok(transacoesContrato);
@@ -133,6 +142,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpPost("salvarTransacao")]
+        [Authorize]
         public async Task<IActionResult> SalvarCategoria([FromBody] CriarTransacaoContrato contrato)
         {
             try
@@ -167,6 +177,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpDelete("removerTransacao/{id}")]
+        [Authorize]
         public async Task<IActionResult> RemoverTransacao(int id)
         {
             try
@@ -185,6 +196,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpPut("editarTransacao")]
+        [Authorize]
         public async Task<IActionResult> EditarTransacao([FromBody] AtualizarTransacaoContrato contrato)
         {
             try

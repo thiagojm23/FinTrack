@@ -1,6 +1,6 @@
-﻿using FinTrack.Domain.Contratos;
-using FinTrack.Domain.Entities;
+﻿using FinTrack.Domain.Entities;
 using FinTrack.Domain.Enums;
+using FinTrack.Domain.Filtros;
 using FinTrack.Domain.Interfaces.Repositorios;
 using FinTrack.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -29,19 +29,20 @@ namespace FinTrack.Infrastructure.Repositorios
             return await _dbSet.Include(t => t.Categoria).Where(t => t.CategoriaId == categoriaId).OrderByDescending(t => t.Data).ToListAsync();
         }
 
-        public async Task<IEnumerable<Transacao>> FiltrarTransacoes(TransacaoFiltro filtros)
+        public async Task<IEnumerable<Transacao>> FiltrarTransacoes(TransacaoFiltroDominio filtros)
         {
             var query = _dbSet.Include(t => t.Categoria).AsQueryable();
 
             query = query.Where(t => !filtros.DataInicio.HasValue || t.Data >= filtros.DataInicio)
                 .Where(t => !filtros.DataFim.HasValue || t.Data <= filtros.DataFim)
                 .Where(t => !filtros.ValorMaximo.HasValue || t.Valor <= filtros.ValorMaximo)
-                .Where(t => !filtros.ValorMinimo.HasValue || t.Valor <= filtros.ValorMinimo)
+                .Where(t => !filtros.ValorMinimo.HasValue || t.Valor >= filtros.ValorMinimo)
                 .Where(t => !filtros.Tipo.HasValue || t.Tipo == filtros.Tipo)
                 .Where(t => !filtros.CategoriaId.HasValue || t.CategoriaId == filtros.CategoriaId)
                 .Where(t => !filtros.Id.HasValue || t.Id == filtros.Id)
                 .Where(t => string.IsNullOrEmpty(filtros.NomeCategoria) || t.Categoria.Nome.Contains(filtros.NomeCategoria.Trim(), StringComparison.OrdinalIgnoreCase))
-                .Where(t => string.IsNullOrEmpty(filtros.Observacao) || t.Observacao.Contains(filtros.Observacao.Trim(), StringComparison.OrdinalIgnoreCase));
+                .Where(t => string.IsNullOrEmpty(filtros.Observacao) || t.Observacao != null && t.Observacao.Contains(filtros.Observacao.Trim(), StringComparison.OrdinalIgnoreCase))
+                .Where(t => string.IsNullOrEmpty(filtros.Descricao) || t.Descricao.Contains(filtros.Descricao.Trim()));
 
             return await query.OrderByDescending(t => t.Data).ToListAsync();
         }

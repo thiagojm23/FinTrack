@@ -32,7 +32,7 @@ namespace FinTrack.Infrastructure.Repositorios
             return await _dbSet.Where(predicate).ToListAsync();
         }
 
-        public async Task AdicionarAsync(T entity)
+        public virtual async Task AdicionarAsync(T entity)
         {
             await _dbSet.AddAsync(entity);
             await _context.SaveChangesAsync();

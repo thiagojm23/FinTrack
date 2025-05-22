@@ -1,6 +1,8 @@
-﻿using FinTrack.Domain.Contratos;
+﻿using System.Security.Claims;
+using FinTrack.Application.Contratos;
 using FinTrack.Domain.Entities;
 using FinTrack.Domain.Interfaces.Repositorios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinTrack.API.Controllers
@@ -29,6 +31,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpGet("obterPorId/{id}")]
+        [Authorize]
         public async Task<ActionResult<Transacao>> ObterPorId(int id)
         {
             try
@@ -46,8 +49,12 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpPost("salvarCategoria")]
+        [Authorize]
         public async Task<IActionResult> CriarCategoria([FromBody] CriarCategoriaContrato categoriaContrato)
         {
+            if (User.FindFirstValue(ClaimTypes.NameIdentifier) == null)
+                return Unauthorized();
+
             try
             {
                 if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -70,6 +77,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpDelete("removerCategoria/{id}")]
+        [Authorize]
         public async Task<IActionResult> RemoverCategoria(int id)
         {
             try
@@ -88,6 +96,7 @@ namespace FinTrack.API.Controllers
         }
 
         [HttpPut("editarCategoria/{id}")]
+        [Authorize]
         public async Task<IActionResult> EditarCategoria(int id, [FromQuery] string? nome, [FromQuery] string? descricao)
         {
             try

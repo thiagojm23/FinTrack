@@ -1,4 +1,4 @@
-﻿namespace FinTrack.Domain.Contratos
+﻿namespace FinTrack.Application.Contratos
 {
     public class CategoriaContrato
     {

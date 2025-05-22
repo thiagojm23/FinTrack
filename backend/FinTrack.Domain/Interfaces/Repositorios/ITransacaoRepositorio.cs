@@ -1,6 +1,6 @@
-﻿using FinTrack.Domain.Contratos;
-using FinTrack.Domain.Entities;
+﻿using FinTrack.Domain.Entities;
 using FinTrack.Domain.Enums;
+using FinTrack.Domain.Filtros;
 
 namespace FinTrack.Domain.Interfaces.Repositorios
 {
@@ -9,6 +9,6 @@ namespace FinTrack.Domain.Interfaces.Repositorios
         Task<IEnumerable<Transacao>> ObterPorPeriodoAsync(DateTime dataInicio, DateTime dataFim);
         Task<IEnumerable<Transacao>> ObterPorTipoAsync(TransacoesTipo tipo);
         Task<IEnumerable<Transacao>> ObterPorCategoriaAsync(int categoriaId);
-        Task<IEnumerable<Transacao>> FiltrarTransacoes(TransacaoFiltro filtros);
+        Task<IEnumerable<Transacao>> FiltrarTransacoes(TransacaoFiltroDominio filtros);
     }
 }
