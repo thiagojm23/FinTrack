@@ -15,6 +15,7 @@ namespace FinTrack.API.Controllers
         private readonly ILogger<CategoriasController> _logger = logger;
 
         [HttpGet("obterTodas")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<CategoriaContrato>>> ObterTodas()
         {
             try
